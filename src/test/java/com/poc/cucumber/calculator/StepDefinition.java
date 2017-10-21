@@ -15,6 +15,7 @@ public class StepDefinition {
 
 	@Given("Noncondition")
 	public void preReq() {
+		calculator = new Calculator();
 
 	}
 

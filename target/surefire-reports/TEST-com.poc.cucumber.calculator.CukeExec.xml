@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="4" failures="0" name="com.poc.cucumber.calculator.CukeExec" time="2.068" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/local/java/jdk1.8.0_101/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.101-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/tau/work/github/cucumber-poc"/>
+    <property name="java.runtime.version" value="1.8.0_101-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="basedir" value="/home/tau/work/github/cucumber-poc"/>
+    <property name="java.endorsed.dirs" value="/usr/local/java/jdk1.8.0_101/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="/home/tau/work/github/cucumber-poc/target/surefire/surefirebooter2346342630013817765.jar"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="surefire.test.class.path" value="/home/tau/work/github/cucumber-poc/target/test-classes:/home/tau/work/github/cucumber-poc/target/classes:/home/tau/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/tau/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/tau/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/home/tau/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/home/tau/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/home/tau/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar:/home/tau/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/home/tau/.m2/repository/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="4.4.0-96-generic"/>
+    <property name="user.home" value="/home/tau"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="tau"/>
+    <property name="java.class.path" value="/home/tau/work/github/cucumber-poc/target/test-classes:/home/tau/work/github/cucumber-poc/target/classes:/home/tau/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/tau/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/tau/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/home/tau/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/home/tau/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/home/tau/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar:/home/tau/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/home/tau/.m2/repository/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar:"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/local/java/jdk1.8.0_101/jre"/>
+    <property name="sun.java.command" value="/home/tau/work/github/cucumber-poc/target/surefire/surefirebooter2346342630013817765.jar /home/tau/work/github/cucumber-poc/target/surefire/surefire4291715707376861235tmp /home/tau/work/github/cucumber-poc/target/surefire/surefire2277981686149282770tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_101"/>
+    <property name="java.ext.dirs" value="/usr/local/java/jdk1.8.0_101/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.boot.class.path" value="/usr/local/java/jdk1.8.0_101/jre/lib/resources.jar:/usr/local/java/jdk1.8.0_101/jre/lib/rt.jar:/usr/local/java/jdk1.8.0_101/jre/lib/sunrsasign.jar:/usr/local/java/jdk1.8.0_101/jre/lib/jsse.jar:/usr/local/java/jdk1.8.0_101/jre/lib/jce.jar:/usr/local/java/jdk1.8.0_101/jre/lib/charsets.jar:/usr/local/java/jdk1.8.0_101/jre/lib/jfr.jar:/usr/local/java/jdk1.8.0_101/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="/home/tau/.m2/repository"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="Scenario: API can perform summation of 2 numbers" name="Given Noncondition" time="0"/>
+  <testcase classname="Scenario: API can perform summation of 2 numbers" name="When Add operation invoked on 5 and 2" time="0"/>
+  <testcase classname="Scenario: API can perform summation of 2 numbers" name="Then The result is 7" time="0"/>
+  <testcase classname="Scenario: API can perform summation of 2 numbers" name="Scenario: API can perform summation of 2 numbers" time="0.001"/>
+</testsuite>
