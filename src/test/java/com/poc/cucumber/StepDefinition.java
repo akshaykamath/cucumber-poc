@@ -1,6 +1,8 @@
-package com.poc.cucumber.calculator;
+package com.poc.cucumber;
 
 import static org.junit.Assert.assertEquals;
+
+import com.poc.cucumber.Calculator;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -13,7 +15,7 @@ public class StepDefinition {
 	Calculator calculator;
 	int answer;
 
-	@Given("Noncondition")
+	@Given("Calculator is created")
 	public void preReq() {
 		calculator = new Calculator();
 

@@ -1,4 +1,4 @@
-package com.poc.cucumber.calculator;
+package com.poc.cucumber;
 
 import org.junit.runner.RunWith;
 
